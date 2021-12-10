@@ -1,0 +1,40 @@
+- FieldNames:
+    page_id: Page ID
+    name: Name
+    urlslug: URL Slug
+    ID: Identity
+    ALIGN: Alignment
+    EYE: Eye Color
+    HAIR: Hair Color
+    SEX: Sex
+    GSM: GSM
+    ALIVE: Status
+    APPEARANCES: Appearances
+    FIRST APPEARANCE: First Appearance
+    Year: Year of First Appearance
+
+- DataTypes:
+    int: number
+    str: string
+    list: array
+    float: number
+    dict: object
+
+# Could go one level further to check object types/structure that align with Airtable
+- FieldTypes:
+    singleLineText: string
+    email: string
+    url: string
+    multilineText: string
+    number: number
+    percent: number
+    currency: number
+    singleSelect: object
+    multipleSelects: array
+    singleCollaborator: object
+    multipleCollaborators: array
+    multipleRecordLinks: array
+    date: [Date, string]
+    dateTime: [Date, string]
+    phoneNumber: string
+    multipleAttachments: array
